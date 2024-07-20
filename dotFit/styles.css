@@ -37,8 +37,28 @@ th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 th {
     background-color: #f2f2f2;
+}
+
+.progress-bars {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.progress-bar label {
+    width: 100px;
+}
+
+progress {
+    width: 100%;
+    margin: 0 10px;
 }
